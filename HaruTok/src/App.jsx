@@ -1,12 +1,14 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
-import "./App.css";
+import './App.css'
+import VideoPlayer from './components/VideoPlayer/index.jsx'
 
-function App() {
-  const [count, setCount] = useState(0);
-
-  return <div className="App">TikTok clone</div>;
+function App () {
+  return (
+    <div className='App'>
+      <main>
+        <VideoPlayer />
+      </main>
+    </div>
+  )
 }
 
-export default App;
+export default App
