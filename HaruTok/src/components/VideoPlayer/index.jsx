@@ -25,9 +25,9 @@ export default function VideoPlayer () {
         className={styles.video}
         controls={false}
         loop
+        onClick={handlePlay}
         ref={video}
         src={src}
-        onClick={handlePlay}
       />
       <i className={playerClassName} />
     </div>
