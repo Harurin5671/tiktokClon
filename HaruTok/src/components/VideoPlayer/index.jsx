@@ -1,3 +1,4 @@
+import clsx from 'clsx'
 import { useRef, useState } from 'react'
 import styles from './styles.module.css'
 import src from '../../videos/Download.mp4'
@@ -5,12 +6,18 @@ import src from '../../videos/Download.mp4'
 export default function VideoPlayer () {
   const [playing, setPlaying] = useState(false)
 
-  const video = useRef()
+  const video = useRef(null)
 
   const handlePlay = () => {
-    if (playing) { video.current.pause() } else { video.current.play() }
+    const { current: videoEl } = video
+    playing ? videoEl.pause() : videoEl.play()
+
     setPlaying(!playing)
   }
+
+  const playerClassName = clsx(styles.player, {
+    [styles.hidden]: playing
+  })
 
   return (
     <div>
@@ -18,11 +25,11 @@ export default function VideoPlayer () {
         className={styles.video}
         controls={false}
         loop
-        onClick={handlePlay}
         ref={video}
         src={src}
+        onClick={handlePlay}
       />
-      <button className={styles.player} onClick={handlePlay} />
+      <i className={playerClassName} />
     </div>
   )
 }
