@@ -3,6 +3,10 @@
   height: 100%;
 }
 
+.wrapper{
+  position: relative;
+}
+
 .player{
   width: 62px;
   height: 62px;
@@ -19,4 +23,14 @@
 
 .hidden {
   opacity: 0;
+}
+
+.actions {
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+}
+
+.action {
+  color: #fff;
 }

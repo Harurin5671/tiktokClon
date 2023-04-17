@@ -3,13 +3,15 @@
   height: 100vh;
   display: grid;
   place-content: center;
+  overflow: hidden;
 }
 
 main {
   aspect-ratio: 9/16;
   border-radius: 3px;
-  overflow-y: scroll;
-  max-width: 375px;
-  width: 100vw;
   display: block;
+  max-width: 375px;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  width: 100vw;
 }
