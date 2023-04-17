@@ -1,9 +1,8 @@
 import clsx from 'clsx'
 import { useRef, useState } from 'react'
 import styles from './styles.module.css'
-import src from '../../videos/Download.mp4'
 
-export default function VideoPlayer () {
+export default function VideoPlayer ({ src }) {
   const [playing, setPlaying] = useState(false)
 
   const video = useRef(null)
