@@ -7,7 +7,7 @@ const VIDEOS = [
   {
     id: 1,
     username: 'Haru',
-    description: '“La única diferencia entre él y tú, es que él ha tenido un accidente pero podría haberte pasado a ti o incluso a mi” Watch more videos of the #parati category ',
+    description: '“La única diferencia entre él y tú, es que él ha tenido un accidente pero podría haberte pasado a ti o incluso a mi” Watch more videos of the #parati category',
     likes: 123,
     shares: 123,
     comments: 333,

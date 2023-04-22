@@ -7,7 +7,7 @@
 }
 
 main {
-  aspect-ratio: 9/16;
+  /* aspect-ratio: 9/16; */
   border-radius: 3px;
   display: block;
   max-width: 375px;
