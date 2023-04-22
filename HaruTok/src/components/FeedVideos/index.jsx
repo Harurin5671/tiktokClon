@@ -12,7 +12,7 @@ const VIDEOS = [
     shares: 123,
     comments: 333,
     songTitle: 'prueba',
-    albumCover: 'https://www.lonestardigital.com/EOS_D30/Sample_Pix/D30_Img_3771(400x400_Crop).jpg',
+    albumImage: 'https://www.lonestardigital.com/EOS_D30/Sample_Pix/D30_Img_3771(400x400_Crop).jpg',
     src: srcVideo
   },
   {
@@ -23,7 +23,7 @@ const VIDEOS = [
     shares: 123,
     comments: 333,
     songTitle: 'prueba',
-    albumCover: 'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/b490d4645c8b7a4fea02327f1f30f30a~c5_720x720.jpeg?x-expires=1681858800&x-signature=fH1nNIZWFCBVtzxSBvkle%2FTlEI0%3D',
+    albumImage: 'https://previews.123rf.com/images/saphatthachat/saphatthachat1609/saphatthachat160900112/62384368-ilustración-de-los-pescados-del-diseño-del-arte-del-pixel.jpg',
     src: srcVideo1
   }
 ]
