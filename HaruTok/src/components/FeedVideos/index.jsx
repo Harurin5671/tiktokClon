@@ -6,23 +6,23 @@ import styles from './styles.module.css'
 const VIDEOS = [
   {
     id: 1,
-    author: 'Haru',
-    description: 'ajajja',
+    username: 'Haru',
+    description: '“La única diferencia entre él y tú, es que él ha tenido un accidente pero podría haberte pasado a ti o incluso a mi” Watch more videos of the #parati category ',
     likes: 123,
     shares: 123,
     comments: 333,
-    songTitle: 'prueba',
+    songTitle: 'pruebaaaaaaaaaaaaa',
     albumImage: 'https://www.lonestardigital.com/EOS_D30/Sample_Pix/D30_Img_3771(400x400_Crop).jpg',
     src: srcVideo
   },
   {
     id: 2,
-    author: 'Haru',
+    username: 'Haru',
     description: 'ajajja1',
     likes: 245,
     shares: 123,
     comments: 333,
-    songTitle: 'prueba',
+    songTitle: 'prueba1ds',
     albumImage: 'https://previews.123rf.com/images/saphatthachat/saphatthachat1609/saphatthachat160900112/62384368-ilustración-de-los-pescados-del-diseño-del-arte-del-pixel.jpg',
     src: srcVideo1
   }
