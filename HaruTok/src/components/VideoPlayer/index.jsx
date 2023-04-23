@@ -4,7 +4,7 @@ import styles from './styles.module.css'
 import VideoPlayerActions from './VideoPlayerActions.jsx'
 import VideoDescription from '../VideoDescription/index.jsx'
 
-export default function VideoPlayer ({ username, albumImage, description, songTitle, src }) {
+export default function VideoPlayer ({ username, avatar, albumImage, description, songTitle, src }) {
   const [playing, setPlaying] = useState(false)
 
   const video = useRef(null)
@@ -31,7 +31,7 @@ export default function VideoPlayer ({ username, albumImage, description, songTi
         src={src}
       />
       <i className={playerClassName} />
-      <VideoPlayerActions />
+      <VideoPlayerActions avatar={avatar} username={username} />
       <VideoDescription
         albumImage={albumImage}
         username={username}
